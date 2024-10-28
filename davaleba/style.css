@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#main {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(227, 224, 221);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: black; 
+}
+
+label {
+    
+    margin: 10px;
+    color: rgb(255, 0, 0);
+}
+
+input {
+    margin: 10px;
+    width: 250px;
+    height: 15px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+button {
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

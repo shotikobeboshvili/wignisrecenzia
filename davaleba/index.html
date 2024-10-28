@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>წიგნის რეცენზია</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>წიგნის რეცენზია</h1>
+
+        <label for="text">შეიყვანეთ წიგნის სახელწოდება</label><br>
+        <input type="text" id="title" placeholder="წიგნის სახელწოდება"> <br>
+
+        <label for="number">შეიყვანეთ წიგნის გვერდების რაოდენობა</label><br>
+        <input type="number" name="number" id="quantity" min="0" placeholder="შეიყვანეთ გვერდების რაოდენობა"><br>
+
+        <label for="number">შეიყვანეთ წაკითხული გვერდების რაოდენობა</label><br>
+        <input type="number" id="readpages" min="0" placeholder="წაკითხული გვერდების რაოდენობა"><br>
+
+        <button type="submit" onclick="submitall()" id="submit" >დადასტურება</button>
+
+        <div id="result"></div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
